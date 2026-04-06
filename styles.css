@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+.nav{
+    background:#d8cbbf;
+    padding:10px 20px;
+}
+
+.banner{
+    height:300px;
+    background:#bfa7a7;
+}
+
+.overlay{
+    background:#cbb3b3cc;
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+
+.seccion{
+    padding:100px 0 50px;
+    position:relative;
+}
+
+.rosa{ background:#e8d1d1; }
+.gris{ background:#c9bdbd; }
+
+.pill{
+    position:absolute;
+    top:0;
+    left:20px;
+    transform:translateY(-50%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    border-radius:12px;
+    z-index:10;
+}
+
+.cafes{ width:411px; height:53px; background:#a57373; }
+.acom{ width:410px; height:53px; background:#a57373; }
+
+.cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:25px;
+    margin-top:60px;
+}
+
+.card{
+    min-height:329px;
+    background:#f2dddd;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    padding:15px;
+    text-align:center;
+}
+
+.img{
+    width:180px;
+    height:178px;
+    background:#c98f8f;
+}
+
+button{
+    width:94px;
+    height:34px;
+    background:#5b1d1d;
+    color:white;
+    border:none;
+    border-radius:12px;
+}
+
+/* INFO */
+.info{
+    padding:100px 0;
+    position:relative;
+}
+
+.info-grid{
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+}
+
+.visit, .horarios{
+    position:relative;
+    padding-top:70px;
+}
+
+.visit-pill{
+    width:424px;
+    height:54px;
+    background:#c65a5a;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.horario-pill{
+    width:386px;
+    height:59px;
+    background:#bfa7a7;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.mapa{
+    width:100%;
+    max-width:350px;
+    height:180px;
+    background:#a57373;
+    margin:20px 0;
+}
+
+.divider{
+    width:1px;
+    height:200px;
+    background:#999;
+}
+
+footer{
+    background:#6b1e1e;
+    color:white;
+    padding:50px 0;
+}
+
+.redes{
+    display:flex;
+    gap:50px;
+    margin-top:25px;
+}
+
+.red{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.circle{
+    width:50px;
+    height:50px;
+    background:#d9d9d9;
+    border-radius:50%;
+}
